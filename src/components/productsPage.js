@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import ProductImg1 from '../assets/images/product-1.jpg';
 import ProductImg2 from '../assets/images/product-2.jpg';
 import ProductImg3 from '../assets/images/product-3.jpg';
@@ -24,7 +25,7 @@ const Products = () => {
                     <div className="col-12">
                         <div className="idolMaker-product-section-title text-center">
                             <h2>Our Products</h2>
-                            <p>Accumsan vitae pede lacus ut ullamcorper sollicitudin quisque libero</p>
+                            {/* <p>Accumsan vitae pede lacus ut ullamcorper sollicitudin quisque libero</p> */}
                         </div>
                     </div>
                 </div>
@@ -32,10 +33,10 @@ const Products = () => {
                     <div className="col-lg-3 col-md-4 col-sm-6">
                         <div className="idolMaker-products-item mt-40">
                             <figure className="idolMaker-products-thumbnail">
-                                <a href="/">
+                                <Link to="/">
                                     <img className="idolMaker-product-price-image" src={ProductImg1} alt="product" />
                                     <img className="idolMaker-product-section-image" src={ProductImg2} alt="product" />
-                                </a>
+                                </Link>
                                 <div className="idolMaker-products-badge">
                                     <div className="idolMaker-products-label new">
                                         <span>New</span>
@@ -45,14 +46,14 @@ const Products = () => {
                                         </div> */}
                                 </div>
                                 <div className="idolMaker-products-button-group">
-                                    <a href="/" data-toggle="tooltip" data-placement="left" title="Add to wishlist"><i className="fa fa-heart"></i></a>
-                                    <a href="/" data-toggle="modal" data-target="#quick_view"><span data-toggle="tooltip" data-placement="left" title="Quick View"><i className="fa fa-search"></i></span></a>
-                                    <a href="/" data-toggle="tooltip" data-placement="left" title="Add to Cart"><i className="fa fa-shopping-cart"></i></a>
+                                    <Link to="/" data-toggle="tooltip" data-placement="left" title="Add to wishlist"><i className="fa fa-heart"></i></Link>
+                                    <Link to="/" data-toggle="modal" data-target="#quick_view"><span data-toggle="tooltip" data-placement="left" title="Quick View"><i className="fa fa-search"></i></span></Link>
+                                    <Link to="/" data-toggle="tooltip" data-placement="left" title="Add to Cart"><i className="fa fa-shopping-cart"></i></Link>
                                 </div>
                             </figure>
                             <div className="idolMaker-products-caption">
                                 <p className="idolMaker-products-name">
-                                    <a href="/">Vinayak Silai</a>
+                                    <Link to="/">Vinayak Silai</Link>
                                 </p>
                                 <div className="idolMaker-products-price-box">
                                     <span className="idolMaker-products-price-new">₹6000.00</span>
@@ -64,24 +65,24 @@ const Products = () => {
                     <div className="col-lg-3 col-md-4 col-sm-6">
                         <div className="idolMaker-products-item mt-40">
                             <figure className="idolMaker-products-thumbnail">
-                                <a href="/">
+                                <Link to="/">
                                     <img className="idolMaker-product-price-image" src={ProductImg3} alt="product" />
                                     <img className="idolMaker-product-section-image" src={ProductImg4} alt="product" />
-                                </a>
+                                </Link>
                                 <div className="idolMaker-products-badge">
                                     <div className="idolMaker-products-label new">
                                         <span>New</span>
                                     </div>
                                 </div>
                                 <div className="idolMaker-products-button-group">
-                                    <a href="/" data-toggle="tooltip" data-placement="left" title="Add to wishlist"><i className="fa fa-heart"></i></a>
-                                    <a href="/" data-toggle="modal" data-target="#quick_view"><span data-toggle="tooltip" data-placement="left" title="Quick View"><i className="fa fa-search"></i></span></a>
-                                    <a href="/" data-toggle="tooltip" data-placement="left" title="Add to Cart"><i className="fa fa-shopping-cart"></i></a>
+                                    <Link to="/" data-toggle="tooltip" data-placement="left" title="Add to wishlist"><i className="fa fa-heart"></i></Link>
+                                    <Link to="/" data-toggle="modal" data-target="#quick_view"><span data-toggle="tooltip" data-placement="left" title="Quick View"><i className="fa fa-search"></i></span></Link>
+                                    <Link to="/" data-toggle="tooltip" data-placement="left" title="Add to Cart"><i className="fa fa-shopping-cart"></i></Link>
                                 </div>
                             </figure>
                             <div className="idolMaker-products-caption">
                                 <p className="idolMaker-products-name">
-                                    <a href="/">Perumal Silai</a>
+                                    <Link to="/">Perumal Silai</Link>
                                 </p>
                                 <div className="idolMaker-products-price-box">
                                     <span className="idolMaker-products-price-new">₹6000.00</span>
@@ -93,24 +94,24 @@ const Products = () => {
                     <div className="col-lg-3 col-md-4 col-sm-6">
                         <div className="idolMaker-products-item mt-40">
                             <figure className="idolMaker-products-thumbnail">
-                                <a href="/">
+                                <Link to="/">
                                     <img className="idolMaker-product-price-image" src={ProductImg5} alt="product" />
                                     <img className="idolMaker-product-section-image" src={ProductImg6} alt="product" />
-                                </a>
+                                </Link>
                                 <div className="idolMaker-products-badge">
                                     <div className="idolMaker-products-label new">
                                         <span>New</span>
                                     </div>
                                 </div>
                                 <div className="idolMaker-products-button-group">
-                                    <a href="/" data-toggle="tooltip" data-placement="left" title="Add to wishlist"><i className="fa fa-heart"></i></a>
-                                    <a href="/" data-toggle="modal" data-target="#quick_view"><span data-toggle="tooltip" data-placement="left" title="Quick View"><i className="fa fa-search"></i></span></a>
-                                    <a href="/" data-toggle="tooltip" data-placement="left" title="Add to Cart"><i className="fa fa-shopping-cart"></i></a>
+                                    <Link to="/" data-toggle="tooltip" data-placement="left" title="Add to wishlist"><i className="fa fa-heart"></i></Link>
+                                    <Link to="/" data-toggle="modal" data-target="#quick_view"><span data-toggle="tooltip" data-placement="left" title="Quick View"><i className="fa fa-search"></i></span></Link>
+                                    <Link to="/" data-toggle="tooltip" data-placement="left" title="Add to Cart"><i className="fa fa-shopping-cart"></i></Link>
                                 </div>
                             </figure>
                             <div className="idolMaker-products-caption">
                                 <p className="idolMaker-products-name">
-                                    <a href="/">Natraj Silai</a>
+                                    <Link to="/">Natraj Silai</Link>
                                 </p>
                                 <div className="idolMaker-products-price-box">
                                     <span className="idolMaker-products-price-new">₹5000.00</span>
@@ -122,10 +123,10 @@ const Products = () => {
                     <div className="col-lg-3 col-md-4 col-sm-6">
                         <div className="idolMaker-products-item mt-40">
                             <figure className="idolMaker-products-thumbnail">
-                                <a href="/">
+                                <Link to="/">
                                     <img className="idolMaker-product-price-image" src={ProductImg7} alt="product" />
                                     <img className="idolMaker-product-section-image" src={ProductImg8} alt="product" />
-                                </a>
+                                </Link>
                                 <div className="idolMaker-products-badge">
                                     <div className="idolMaker-products-label new">
                                         <span>New</span>
@@ -135,14 +136,14 @@ const Products = () => {
                                         </div> */}
                                 </div>
                                 <div className="idolMaker-products-button-group">
-                                    <a href="/" data-toggle="tooltip" data-placement="left" title="Add to wishlist"><i className="fa fa-heart"></i></a>
-                                    <a href="/" data-toggle="modal" data-target="#quick_view"><span data-toggle="tooltip" data-placement="left" title="Quick View"><i className="fa fa-search"></i></span></a>
-                                    <a href="/" data-toggle="tooltip" data-placement="left" title="Add to Cart"><i className="fa fa-shopping-cart"></i></a>
+                                    <Link to="/" data-toggle="tooltip" data-placement="left" title="Add to wishlist"><i className="fa fa-heart"></i></Link>
+                                    <Link to="/" data-toggle="modal" data-target="#quick_view"><span data-toggle="tooltip" data-placement="left" title="Quick View"><i className="fa fa-search"></i></span></Link>
+                                    <Link to="/" data-toggle="tooltip" data-placement="left" title="Add to Cart"><i className="fa fa-shopping-cart"></i></Link>
                                 </div>
                             </figure>
                             <div className="idolMaker-products-caption">
                                 <p className="idolMaker-products-name">
-                                    <a href="/">Natraj Silai </a>
+                                    <Link to="/">Natraj Silai </Link>
                                 </p>
                                 <div className="idolMaker-products-price-box">
                                     <span className="idolMaker-products-price-new">₹3000.00</span>
@@ -154,10 +155,10 @@ const Products = () => {
                     <div className="col-lg-3 col-md-4 col-sm-6">
                         <div className="idolMaker-products-item mt-40">
                             <figure className="idolMaker-products-thumbnail">
-                                <a href="/">
+                                <Link to="/">
                                     <img className="idolMaker-product-price-image" src={ProductImg9} alt="product" />
                                     <img className="idolMaker-product-section-image" src={ProductImg10} alt="product" />
-                                </a>
+                                </Link>
                                 <div className="idolMaker-products-badge">
                                     <div className="idolMaker-products-label new">
                                         <span>New</span>
@@ -167,14 +168,14 @@ const Products = () => {
                                         </div> */}
                                 </div>
                                 <div className="idolMaker-products-button-group">
-                                    <a href="/" data-toggle="tooltip" data-placement="left" title="Add to wishlist"><i className="fa fa-heart"></i></a>
-                                    <a href="/" data-toggle="modal" data-target="#quick_view"><span data-toggle="tooltip" data-placement="left" title="Quick View"><i className="fa fa-search"></i></span></a>
-                                    <a href="/" data-toggle="tooltip" data-placement="left" title="Add to Cart"><i className="fa fa-shopping-cart"></i></a>
+                                    <Link to="/" data-toggle="tooltip" data-placement="left" title="Add to wishlist"><i className="fa fa-heart"></i></Link>
+                                    <Link to="/" data-toggle="modal" data-target="#quick_view"><span data-toggle="tooltip" data-placement="left" title="Quick View"><i className="fa fa-search"></i></span></Link>
+                                    <Link to="/" data-toggle="tooltip" data-placement="left" title="Add to Cart"><i className="fa fa-shopping-cart"></i></Link>
                                 </div>
                             </figure>
                             <div className="idolMaker-products-caption">
                                 <p className="idolMaker-products-name">
-                                    <a href="/">Amman Silai</a>
+                                    <Link to="/">Amman Silai</Link>
                                 </p>
                                 <div className="idolMaker-products-price-box">
                                     <span className="idolMaker-products-price-new">₹8000.00</span>
@@ -186,10 +187,10 @@ const Products = () => {
                     <div className="col-lg-3 col-md-4 col-sm-6">
                         <div className="idolMaker-products-item mt-40">
                             <figure className="idolMaker-products-thumbnail">
-                                <a href="/">
+                                <Link to="/">
                                     <img className="idolMaker-product-price-image" src={ProductImg11} alt="product" />
                                     <img className="idolMaker-product-section-image" src={ProductImg12} alt="product" />
-                                </a>
+                                </Link>
                                 <div className="idolMaker-products-badge">
                                     <div className="idolMaker-products-label new">
                                         <span>New</span>
@@ -199,14 +200,14 @@ const Products = () => {
                                         </div> */}
                                 </div>
                                 <div className="idolMaker-products-button-group">
-                                    <a href="/" data-toggle="tooltip" data-placement="left" title="Add to wishlist"><i className="fa fa-heart"></i></a>
-                                    <a href="/" data-toggle="modal" data-target="#quick_view"><span data-toggle="tooltip" data-placement="left" title="Quick View"><i className="fa fa-search"></i></span></a>
-                                    <a href="/" data-toggle="tooltip" data-placement="left" title="Add to Cart"><i className="fa fa-shopping-cart"></i></a>
+                                    <Link to="/" data-toggle="tooltip" data-placement="left" title="Add to wishlist"><i className="fa fa-heart"></i></Link>
+                                    <Link to="/" data-toggle="modal" data-target="#quick_view"><span data-toggle="tooltip" data-placement="left" title="Quick View"><i className="fa fa-search"></i></span></Link>
+                                    <Link to="/" data-toggle="tooltip" data-placement="left" title="Add to Cart"><i className="fa fa-shopping-cart"></i></Link>
                                 </div>
                             </figure>
                             <div className="idolMaker-products-caption">
                                 <p className="idolMaker-products-name">
-                                    <a href="/">Amman Stone Statue</a>
+                                    <Link to="/">Amman Stone Statue</Link>
                                 </p>
                                 <div className="idolMaker-products-price-box">
                                     <span className="idolMaker-products-price-new">₹4000.00</span>
@@ -218,10 +219,10 @@ const Products = () => {
                     <div className="col-lg-3 col-md-4 col-sm-6">
                         <div className="idolMaker-products-item mt-40">
                             <figure className="idolMaker-products-thumbnail">
-                                <a href="/">
+                                <Link to="/">
                                     <img className="idolMaker-product-price-image" src={ProductImg13} alt="product" />
                                     <img className="idolMaker-product-section-image" src={ProductImg14} alt="product" />
-                                </a>
+                                </Link>
                                 <div className="idolMaker-products-badge">
                                     <div className="idolMaker-products-label new">
                                         <span>New</span>
@@ -231,14 +232,14 @@ const Products = () => {
                                         </div> */}
                                 </div>
                                 <div className="idolMaker-products-button-group">
-                                    <a href="/" data-toggle="tooltip" data-placement="left" title="Add to wishlist"><i className="fa fa-heart"></i></a>
-                                    <a href="/" data-toggle="modal" data-target="#quick_view"><span data-toggle="tooltip" data-placement="left" title="Quick View"><i className="fa fa-search"></i></span></a>
-                                    <a href="/" data-toggle="tooltip" data-placement="left" title="Add to Cart"><i className="fa fa-shopping-cart"></i></a>
+                                    <Link to="/" data-toggle="tooltip" data-placement="left" title="Add to wishlist"><i className="fa fa-heart"></i></Link>
+                                    <Link to="/" data-toggle="modal" data-target="#quick_view"><span data-toggle="tooltip" data-placement="left" title="Quick View"><i className="fa fa-search"></i></span></Link>
+                                    <Link to="/" data-toggle="tooltip" data-placement="left" title="Add to Cart"><i className="fa fa-shopping-cart"></i></Link>
                                 </div>
                             </figure>
                             <div className="idolMaker-products-caption">
                                 <p className="idolMaker-products-name">
-                                    <a href="/">Snake Stone Statue</a>
+                                    <Link to="/">Snake Stone Statue</Link>
                                 </p>
                                 <div className="idolMaker-products-price-box">
                                     <span className="idolMaker-products-price-new">₹5000.00</span>
@@ -250,31 +251,31 @@ const Products = () => {
                     <div className="col-lg-3 col-md-4 col-sm-6">
                         <div className="idolMaker-products-item mt-40">
                             <figure className="idolMaker-products-thumbnail">
-                                <a href="/">
+                                <Link to="/">
                                     <img className="idolMaker-product-price-image" src={ProductImg15} alt="product" />
                                     <img className="idolMaker-product-section-image" src={ProductImg16} alt="product" />
-                                </a>
+                                </Link>
                                 <div className="idolMaker-products-badge">
                                     <div className="idolMaker-products-label new">
                                         <span>New</span>
                                     </div>
                                 </div>
                                 <div className="idolMaker-products-button-group">
-                                    <a href="/" data-toggle="tooltip" data-placement="left" title="Add to wishlist">
+                                    <Link to="/" data-toggle="tooltip" data-placement="left" title="Add to wishlist">
                                         <i className="fa fa-heart"></i>
-                                    </a>
-                                    <a href="/" data-toggle="modal" data-target="#quick_view">
+                                    </Link>
+                                    <Link to="/" data-toggle="modal" data-target="#quick_view">
                                         <span data-toggle="tooltip" data-placement="left" title="Quick View">
                                             <i className="fa fa-search"></i></span>
-                                    </a>
-                                    <a href="/" data-toggle="tooltip" data-placement="left" title="Add to Cart">
+                                    </Link>
+                                    <Link to="/" data-toggle="tooltip" data-placement="left" title="Add to Cart">
                                         <i className="fa fa-shopping-cart"></i>
-                                    </a>
+                                    </Link>
                                 </div>
                             </figure>
                             <div className="idolMaker-products-caption">
                                 <p className="idolMaker-products-name">
-                                    <a href="/">Pancha Loga Silai</a>
+                                    <Link to="/">Pancha Loga Silai</Link>
                                 </p>
                                 <div className="idolMaker-products-price-box">
                                     <span className="idolMaker-products-price-new">₹6000.00</span>
@@ -286,7 +287,7 @@ const Products = () => {
 
                     <div className="col-12">
                         <div className="idolMaker-products-view-more-btn">
-                            <a className="idolMaker-home-slide-btn idolMaker-products-btn-load-more" href="/">view more products</a>
+                            <Link className="idolMaker-home-slide-btn idolMaker-products-btn-load-more" to="/contact-us">Get Quote</Link>
                         </div>
                     </div>
                 </div>

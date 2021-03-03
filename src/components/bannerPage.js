@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import HomeSlide1 from '../assets/images/home3-slide1.jpg';
 
 const BannerPage = () => {
@@ -20,7 +21,7 @@ const BannerPage = () => {
                                             <span>HANDCRAFTED SILAI</span>
                                             <h1>Experience </h1>
                                             <h2>All Our Sculpture Collection</h2>
-                                            <a href="/" className="idolMaker-home-slide-btn">shop now</a>
+                                            <Link to="/" className="idolMaker-home-slide-btn">shop now</Link>
                                         </div>
                                     </div>
                                 </div>

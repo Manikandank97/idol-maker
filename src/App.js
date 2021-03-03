@@ -8,6 +8,7 @@ import HomePage from './components/homePage';
 import LoginPage from './components/loginPage';
 import RegisterPage from './components/registerPage';
 import DashboardPage from './components/dashboardPage'
+import ContactUsPage from './components/contactUsPage'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/login" component={LoginPage} />
         <Route path="/register" component={RegisterPage} />
         <Route path="/dashboard" component={DashboardPage} />
+        <Route path="/contact-us" component={HomePage} />
         <Redirect from="*" to="/" />
       </Switch>
     </Router>

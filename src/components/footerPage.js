@@ -1,16 +1,15 @@
 import React from 'react'
-import PaymentLogo from '../assets/images/payment-pic.png';
+// import PaymentLogo from '../assets/images/payment-pic.png';
 
 const Footer = () => {
     return (
         <>
             <div className="idolMaker-footer-container">
-
                 <div className="idolMaker-footer-widget-section">
                     <div className="container">
                         <div className="idolMaker-footer-widget-inner-section idolMaker-product-section-space">
                             <div className="row idolMaker-mgBot-30">
-                                <div className="col-lg-5 col-md-6 col-sm-8">
+                                {/* <div className="col-lg-5 col-md-6 col-sm-8">
                                     <div className="idolMaker-footer-widget-inner-item mb-30">
                                         <div className="idolMaker-footer-widget-inner-item-title">
                                             <h5>Contact</h5>
@@ -33,7 +32,7 @@ const Footer = () => {
                                             <img src={PaymentLogo} alt="payment method" />
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                                 <div className="col-lg-2 col-md-6 col-sm-4">
                                     <div className="idolMaker-footer-widget-inner-item mb-30">
                                         <div className="idolMaker-footer-widget-inner-item-title">
@@ -62,7 +61,7 @@ const Footer = () => {
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="col-lg-2 offset-lg-1 col-md-6 col-sm-6">
+                                <div className="col-lg-2 col-md-6 col-sm-6">
                                     <div className="idolMaker-footer-widget-inner-item mb-30">
                                         <div className="idolMaker-footer-widget-inner-item-title">
                                             <h5>Quick Links</h5>

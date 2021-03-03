@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import BrandLogo from '../assets/images/IM-logo.jpg';
 // import BottomMenuImg from '../assets/images/img-bottom-menu.jpg';
+
 
 const HeaderMenu = () => {
     return (
@@ -11,47 +13,45 @@ const HeaderMenu = () => {
                         <div className="container">
                             <div className="row align-items-center position-relative">
                                 <div className="col-md-3">
-                                    <div>
-                                        <a href="/">
-                                            <img src={BrandLogo} alt="" height="70px" width="100px" />
-                                        </a>
-                                    </div>
+                                    <Link to="/">
+                                        <img src={BrandLogo} alt="" height="70px" width="100px" />
+                                    </Link>
                                 </div>
                                 <div className="col-md-6 position-static">
                                     <div className="idolMaker-idolMaker-main-menu-container">
                                         <div className="idolMaker-main-menu">
                                             <nav className="idolMaker-desktop-menu">
                                                 <ul>
-                                                    <li className="active"><a href="/">HOME </a>                                                    </li>
-                                                    <li className="static"><a href="/">SCULPTURES</a>
+                                                    <li className="active"><Link to="/">HOME </Link>                                                    </li>
+                                                    <li className="static"><Link to="/">SCULPTURES</Link>
                                                     </li>
-                                                    <li><a href="/">IDOL <i className="fa fa-angle-down"></i></a>
+                                                    <li><Link to="/">IDOL <i className="fa fa-angle-down"></i></Link>
                                                         <ul className="dropdown">
-                                                            <li><a href="/">Brass <i className="fa fa-angle-right"></i></a>
+                                                            <li><Link to="/">Brass <i className="fa fa-angle-right"></i></Link>
                                                                 <ul className="dropdown">
-                                                                    <li><a href="/">Brass Silai 1</a></li>
-                                                                    <li><a href="/">Brass Silai 2</a></li>
-                                                                    <li><a href="/">Brass Silai 3</a></li>
+                                                                    <li><Link to="/">Brass Silai 1</Link></li>
+                                                                    <li><Link to="/">Brass Silai 2</Link></li>
+                                                                    <li><Link to="/">Brass Silai 3</Link></li>
                                                                 </ul>
                                                             </li>
-                                                            <li><a href="/">Statues <i className="fa fa-angle-right"></i></a>
+                                                            <li><Link to="/">Statues <i className="fa fa-angle-right"></i></Link>
                                                                 <ul className="dropdown">
-                                                                    <li><a href="/">Statue 1</a></li>
-                                                                    <li><a href="/">Statue 2</a></li>
-                                                                    <li><a href="/">Statue 3</a></li>
+                                                                    <li><Link to="/">Statue 1</Link></li>
+                                                                    <li><Link to="/">Statue 2</Link></li>
+                                                                    <li><Link to="/">Statue 3</Link></li>
                                                                 </ul>
                                                             </li>
-                                                            <li><a href="/">Pancha Loga's <i className="fa fa-angle-right"></i></a>
+                                                            <li><Link to="/">Pancha Loga's <i className="fa fa-angle-right"></i></Link>
                                                                 <ul className="dropdown">
-                                                                    <li><a href="/">Pancha Loga 1</a></li>
-                                                                    <li><a href="/">Pancha Loga 2 </a></li>
-                                                                    <li><a href="/">Pancha Loga 3 </a></li>
+                                                                    <li><Link to="/">Pancha Loga 1</Link></li>
+                                                                    <li><Link to="/">Pancha Loga 2 </Link></li>
+                                                                    <li><Link to="/">Pancha Loga 3 </Link></li>
                                                                 </ul>
                                                             </li>
                                                         </ul>
                                                     </li>
-                                                    <li><a href="/">ABOUT US</a></li>
-                                                    <li><a href="/">CONTACT US</a></li>
+                                                    <li><Link to="/">ABOUT US</Link></li>
+                                                    <li><Link to="/">CONTACT US</Link></li>
                                                 </ul>
                                             </nav>
                                         </div>
@@ -62,60 +62,33 @@ const HeaderMenu = () => {
                                         <div className="idolMaker-header-section">
                                             <ul className="nav justify-content-end">
                                                 <li>
-                                                    <a href="/" className="offcanvas-btn">
+                                                    <Link to="/" className="offcanvas-btn">
                                                         <i className="fa fa-search"></i>
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li className="idolMaker-user-hover">
-                                                    <a href="/">
+                                                    <Link to="/">
                                                         <i className="fa fa-user"></i>
-                                                    </a>
+                                                    </Link>
                                                     <ul className="dropdown-list">
-                                                        <li><a href="/">login</a></li>
-                                                        <li><a href="/">register</a></li>
-                                                        <li><a href="/">my account</a></li>
+                                                        <li><Link to="/">login</Link></li>
+                                                        <li><Link to="/">register</Link></li>
+                                                        <li><Link to="/">my account</Link></li>
                                                     </ul>
                                                 </li>
                                                 <li>
-                                                    <a href="/">
+                                                    <Link to="/">
                                                         <i className="fa fa-heart"></i>
                                                         <div className="idolMaker-minicart-notification-icon">0</div>
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a href="/" className="idolMaker-minicart-btn">
+                                                    <Link to="/" className="idolMaker-minicart-btn">
                                                         <i className="fa fa-shopping-cart"></i>
                                                         <div className="idolMaker-minicart-notification-icon">0</div>
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                             </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="idolMaker-mobile-header-container d-lg-none d-md-block sticky">
-                    <div className="container">
-                        <div className="row align-items-center">
-                            <div className="col-12">
-                                <div className="idolMaker-header-mobile-view">
-                                    <div className="idolMaker-mobile-brand-icon">
-                                        <a href="/">
-                                            <img src={BrandLogo} alt="Brand Icon" />
-                                        </a>
-                                    </div>
-                                    <div className="idolMaker-mobile-menu-toggle-wrapper">
-                                        <div className="idolMaker-mobile-mini-cart-wrap">
-                                            <a href="/">
-                                                <i className="fa fa-shopping-cart"></i>
-                                            </a>
-                                        </div>
-                                        <div className="idolMaker-mobile-menu-cart-btn">
-                                            <div className="idolMaker-cart-off-canvas-btn">
-                                                <i className="fa fa-menu"></i>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
