@@ -26,7 +26,7 @@ const Contact = () => {
                                             <li className="idolMaker-footer-phone">
                                                 <em><i class="fa fa-whatsapp" aria-hidden="true"></i> Phones: </em>
                                                 {/* <a href="tel:(+91)9788271299">(+91) 9788271299</a> */}
-                                                <a href="https://wa.me/919788271299/">(+91) 9788271299</a>
+                                                <a href="https://wa.me/918668013198/">(+91) 8668013198</a>
                                             </li>
                                         </ul>
                                         {/* <div className="idolMaker-footer-payment-method">

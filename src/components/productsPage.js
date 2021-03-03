@@ -55,10 +55,10 @@ const Products = () => {
                                 <p className="idolMaker-products-name">
                                     <Link to="/">Vinayak Silai</Link>
                                 </p>
-                                <div className="idolMaker-products-price-box">
+                                {/* <div className="idolMaker-products-price-box">
                                     <span className="idolMaker-products-price-new">₹6000.00</span>
                                     <span className="idolMaker-products-price-old"><del>₹7000.00</del></span>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
@@ -84,10 +84,10 @@ const Products = () => {
                                 <p className="idolMaker-products-name">
                                     <Link to="/">Perumal Silai</Link>
                                 </p>
-                                <div className="idolMaker-products-price-box">
+                                {/* <div className="idolMaker-products-price-box">
                                     <span className="idolMaker-products-price-new">₹6000.00</span>
                                     <span className="idolMaker-products-price-old"><del>₹7000.00</del></span>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
@@ -113,10 +113,10 @@ const Products = () => {
                                 <p className="idolMaker-products-name">
                                     <Link to="/">Natraj Silai</Link>
                                 </p>
-                                <div className="idolMaker-products-price-box">
+                                {/* <div className="idolMaker-products-price-box">
                                     <span className="idolMaker-products-price-new">₹5000.00</span>
                                     <span className="idolMaker-products-price-old"><del>₹8000.00</del></span>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
@@ -145,10 +145,10 @@ const Products = () => {
                                 <p className="idolMaker-products-name">
                                     <Link to="/">Natraj Silai </Link>
                                 </p>
-                                <div className="idolMaker-products-price-box">
+                                {/* <div className="idolMaker-products-price-box">
                                     <span className="idolMaker-products-price-new">₹3000.00</span>
                                     <span className="idolMaker-products-price-old"><del>₹5000.00</del></span>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
@@ -177,10 +177,10 @@ const Products = () => {
                                 <p className="idolMaker-products-name">
                                     <Link to="/">Amman Silai</Link>
                                 </p>
-                                <div className="idolMaker-products-price-box">
+                                {/* <div className="idolMaker-products-price-box">
                                     <span className="idolMaker-products-price-new">₹8000.00</span>
                                     <span className="idolMaker-products-price-old"><del>₹9000.00</del></span>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
@@ -209,10 +209,10 @@ const Products = () => {
                                 <p className="idolMaker-products-name">
                                     <Link to="/">Amman Stone Statue</Link>
                                 </p>
-                                <div className="idolMaker-products-price-box">
+                                {/* <div className="idolMaker-products-price-box">
                                     <span className="idolMaker-products-price-new">₹4000.00</span>
                                     <span className="idolMaker-products-price-old"><del>₹5000.00</del></span>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
@@ -241,10 +241,10 @@ const Products = () => {
                                 <p className="idolMaker-products-name">
                                     <Link to="/">Snake Stone Statue</Link>
                                 </p>
-                                <div className="idolMaker-products-price-box">
+                                {/* <div className="idolMaker-products-price-box">
                                     <span className="idolMaker-products-price-new">₹5000.00</span>
                                     <span className="idolMaker-products-price-old"><del>₹8000.00</del></span>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
@@ -277,10 +277,10 @@ const Products = () => {
                                 <p className="idolMaker-products-name">
                                     <Link to="/">Pancha Loga Silai</Link>
                                 </p>
-                                <div className="idolMaker-products-price-box">
+                                {/* <div className="idolMaker-products-price-box">
                                     <span className="idolMaker-products-price-new">₹6000.00</span>
                                     <span className="idolMaker-products-price-old"><del>₹7000.00</del></span>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
